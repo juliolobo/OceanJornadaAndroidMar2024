@@ -16,9 +16,8 @@ class MainActivity : AppCompatActivity() {
         val etNome = findViewById<EditText>(R.id.etNome)
 
         btEnviar.setOnClickListener {
-            val nome = etNome.text.toString()
-            if(nome.isNotEmpty()) {
-                tvResultado.text = nome
+            if(etNome.text.isNotBlank()) {
+                tvResultado.text = etNome.text
             } else {
                 etNome.error = "Preencha o campo"
             }
