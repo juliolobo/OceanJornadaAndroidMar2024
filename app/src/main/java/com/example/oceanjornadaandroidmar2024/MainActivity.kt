@@ -1,5 +1,6 @@
 package com.example.oceanjornadaandroidmar2024
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -21,6 +22,15 @@ class MainActivity : AppCompatActivity() {
             } else {
                 etNome.error = "Preencha o campo"
             }
+        }
+
+        // Comportamento do botão Abrir Nova Tela
+        val btAbrirNovaTela = findViewById<Button>(R.id.btAbrirNovaTela)
+
+        btAbrirNovaTela.setOnClickListener {
+            val novaTelaIntent = Intent(this, ResultadoActivity::class.java)
+
+            startActivity(novaTelaIntent)
         }
     }
 }
