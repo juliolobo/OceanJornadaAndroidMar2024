@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             if(etNome.text.isNotBlank()) {
                 tvResultado.text = etNome.text
             } else {
-                etNome.error = "Preencha o campo"
+                etNome.error = getString(R.string.insert_a_valid_name)
             }
         }
 

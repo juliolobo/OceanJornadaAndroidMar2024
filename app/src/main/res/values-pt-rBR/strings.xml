@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OceanJornadaAndroidMar2024</string>
+    <string name="hello_world">Olá, mundo!</string>
+    <string name="send">Enviar</string>
+    <string name="insert_your_name">Digite seu nome</string>
+    <string name="open_new_screen">Abrir Nova Tela</string>
+    <string name="insert_a_valid_name">Digite um nome válido!</string>
+    <string name="result_will_de_shown_here">Resultado aparecerá aqui</string>
+    <string name="back">Voltar</string>
+</resources>
