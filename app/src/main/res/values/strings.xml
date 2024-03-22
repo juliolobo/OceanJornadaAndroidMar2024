@@ -1,10 +1,3 @@
 <resources>
     <string name="app_name">OceanJornadaAndroidMar2024</string>
-    <string name="hello_world">Hello World!</string>
-    <string name="send">Send</string>
-    <string name="insert_your_name">Insert your name</string>
-    <string name="open_new_screen">Open new screen</string>
-    <string name="insert_a_valid_name">Insert a valid name!</string>
-    <string name="result_will_de_shown_here">Result will de shown here</string>
-    <string name="back">Back</string>
 </resources>
